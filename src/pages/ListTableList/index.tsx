@@ -56,7 +56,7 @@ const handleUpdate = async (fields: FormValueType) => {
  * @param selectedRows
  */
 const handleRemove = async (selectedRows: TableListItem[]) => {
-  const hide = message.loading('正在删除...');
+  const hide = message.loading('正在删除...!!!');
   if (!selectedRows) return true;
   try {
     await removeRule({
