@@ -46,7 +46,7 @@ const handleUpdate = async (fields: FormValueType) => {
     return true;
   } catch (error) {
     hide();
-    message.error('配置失败请重试！');
+    message.error('配置失败请重试!!!！');
     return false;
   }
 };
